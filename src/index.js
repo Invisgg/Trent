@@ -13,6 +13,6 @@ const commandFolders = fs.readdirSync("./src/commands");
     }
     client.handleEvents(eventsFiles, "./src/events");
     client.handleCommands(commandFolders, "./src/commands")
-    client.login("OTUwOTI3OTk5ODg3MzQ3NzYy.GnyRmN.LPTTRLTcKPk1Oe2gVKYi_7lSeh23Td5B_I6jf8");
+    client.login("<YOUR_TOKEN_HERE>");
     
 })();
